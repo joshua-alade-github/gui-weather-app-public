@@ -1,0 +1,22 @@
+Jonathan Minkin:
+
+* Created component to update the location and store previous locations
+* Created button to swap between Fahrenheit and Celsius, and update all relevant components
+* Created five day forecast component to show weather for the next 5 days
+* Implemented "caching" of most recent location and units used
+
+Matthew Gilmore:
+
+* Created planTripPage component with forms
+* Added process of data and display of table for trip
+
+Joshua Alade:
+
+* Created planTripButton component to enter planTripPage and added functionality to go back home button
+* Implemented some of the CSS for various components
+
+Ibrahim Amaev:
+
+* Created a table for the 5 Day Forecast to showcase the date, time and temperature 
+	for a certain location throughout a 5 day priod, using CSS and HTML
+* Designed the outlook of the elements of the components.

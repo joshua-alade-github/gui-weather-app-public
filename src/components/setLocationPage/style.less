@@ -1,0 +1,90 @@
+@import '~style/helpers';
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(109, 164, 204, 0.4);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.7);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+    margin-bottom: 50px;
+}
+.container button {
+    margin: 0 auto;
+    font-size: 1.5rem;
+    padding: 1rem;
+    display: block;
+    background: #6DA4CC;
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: 300;
+    border-radius: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  .container button:hover {
+    background: #fff;
+    color: #6DA4CC;
+    border: 1px solid transparent;
+  }
+
+.buttonlist {
+    justify-content: center;
+    width: auto;
+    height: 200px;
+    overflow-y: scroll;
+		overflow-x:hidden;
+}
+
+.buttonlist button {
+    margin: 0 auto;
+    font-size: 1.5rem;
+    padding: 1rem;
+    display: block;
+    background: rgb(9, 179, 128);
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: 300;
+    border-radius: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  .buttonlist button:hover {
+    background: #fff;
+    color: rgb(9, 179, 128);
+    border: 1px solid transparent;
+  }
+
+  .clearcontainer {
+    display: flex;
+	  justify-content: center;
+    margin-bottom: 50px;
+  }
+  .clearcontainer button {
+    margin: 0 auto;
+    font-size: 1.5rem;
+    padding: 1rem;
+    display: block;
+    background: #ff0000;
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: 300;
+    border-radius: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .clearcontainer button:hover {
+    background: #fff;
+    color: #ff0000;
+    border: 1px solid transparent;
+  }

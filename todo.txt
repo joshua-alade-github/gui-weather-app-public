@@ -1,0 +1,15 @@
+1. Home screen showing 5 day forecast of local weather
+2. Menu/ Settings
+  a. Theme
+  b. Location details
+  c. Past trips
+  d. Unit types
+3. Plan trip button
+  a. Pick location of travel and num days
+  b. Receive and display weather at new location
+  c. Possible extra: give recommendations with said information
+4. Get current location
+  a. Either enter location from approved list
+  b. or use current location
+5. API deets - Jonathan
+6. Design/ Look - Ibrahim
